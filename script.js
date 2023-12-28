@@ -74,8 +74,9 @@ function displayExpenses() {
             const formattedExpense = `${expense.amount.toFixed(2)} - ${expense.category} - ${expense.description}`;
             expenseItem.innerHTML = `
                 <p>${formattedExpense} 
-                   <button onclick="editExpense(${expense.id})">Edit</button>
-                   <button onclick="deleteExpense(${expense.id})">Delete</button>
+                   <button onclick="deleteExpense(${expense.id})">Delete Expense</button>
+                   <button onclick="editExpense(${expense.id})">Edit Expense</button>
+                   
                 </p>
             `;
             expenseList.appendChild(expenseItem);

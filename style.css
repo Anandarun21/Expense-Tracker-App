@@ -1,0 +1,9 @@
+/* Add list-style-type property to style the bullet points */
+.expense-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-item {
+    margin-bottom: 10px;
+}
